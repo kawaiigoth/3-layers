@@ -1,0 +1,42 @@
+﻿@using _EPAM_UserList.BLL;
+@using _EPAM_UserList.BLL.UserLogic;
+@using _EPAM_UserList.Interfases.BLL;
+@using _EPAM_UserList.BLL.UserListLogic;
+@using Logs;
+@using _EPAM_UserList.Entites;
+@using System.Globalization;
+@using System.Configuration;
+@using System.Web.UI.WebControls;
+@using _EPAM_UserList.PL.WebUI;
+@{
+
+    IImagesBLL imageslogic = null;
+    imageslogic = new ImagesLogic();
+
+    var stringId = Request["id"];
+    var type = Request["type"];
+    int id;
+    if (string.IsNullOrWhiteSpace(type) || string.IsNullOrWhiteSpace(stringId) || !int.TryParse(stringId, out id))
+    {
+        Response.SetStatus(HttpStatusCode.BadRequest);
+        return;
+    }
+
+    var image = imageslogic.GetById(id);
+    if (image.DataSmall == null)
+    {
+        Response.WriteFile("~/Content//default_" + type +".jpg");
+        return;
+    }
+    byte[] content = null;
+    if(type == "big")
+    {
+        content = image.DataBig;
+    }
+    else if (type == "small")
+    {
+        content = image.DataSmall;
+    }
+    Response.WriteBinary(content, image.Format);
+    Response.AddHeader("Content-Disposition", $"inline; filename=\"{image.Id}\"");
+}

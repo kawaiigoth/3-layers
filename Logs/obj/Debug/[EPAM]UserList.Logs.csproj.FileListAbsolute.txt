@@ -1,0 +1,5 @@
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\Logs\bin\Debug\Logs.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\Logs\bin\Debug\Logs.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\Logs\obj\Debug\[EPAM]UserList.Logs.csprojResolveAssemblyReference.cache
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\Logs\obj\Debug\Logs.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\Logs\obj\Debug\Logs.pdb

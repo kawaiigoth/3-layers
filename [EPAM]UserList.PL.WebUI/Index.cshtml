@@ -1,0 +1,177 @@
+﻿@using _EPAM_UserList.BLL;
+@using _EPAM_UserList.BLL.UserLogic;
+@using _EPAM_UserList.Interfases.BLL;
+@using _EPAM_UserList.BLL.UserListLogic;
+@using Logs;
+@using _EPAM_UserList.Entites;
+@using System.Globalization;
+@using System.Configuration;
+@using System.Web.UI.WebControls;
+@using _EPAM_UserList.PL.WebUI;
+@{
+    IUserListBLL userlogic = null;
+    IAwardListBLL awardlogic = null;
+    IImagesBLL imageslogic = null;
+    try
+    {
+        userlogic = new UserListLogic();
+        awardlogic = new AwardLogic();
+        imageslogic = new ImagesLogic();
+        //userlogic = UserCache.Instance;
+        //awardlogic = AwardCache.Instance;
+    }
+    catch (ConfigurationFileExeption e)
+    {
+        LogType.AddLog(e);
+    }
+    catch (Exception e)
+    {
+        LogType.AddLog(e);
+    }
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UserList Application</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <header class="row hidden-xs">
+            <div class="col-lg-12"><img src="~/Content/header.jpg" class="img-responsive"></div>
+        </header>
+        @if (User.IsInRole("moderator"))
+        {
+            <button class="btn btn-lg btn-success create-user">Add User</button>
+            <a href="~/Awards" class="btn btn-lg btn-warning">Awards</a>
+
+        }
+        @if (User.IsInRole("admin"))
+        {
+            <a href="~/AdminPanel" class="btn btn-lg btn-danger">Admin Panel</a>
+        }
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <button class="btn btn-lg btn-default" data-toggle="modal" data-target="#LoginModal"> Login </button>
+            <button class="btn btn-lg btn-default" data-toggle="modal" data-target="#RegisterModal"> Register </button>
+        }
+        else
+        {
+            <h2>Hi @User.Identity.Name</h2>
+            <a href="~/Actions/user/Logout.cshtml" class="btn btn-lg btn-default"> Logout </a>
+        }
+
+        <table class="table table-striped" id="TableOfUsers">
+            <thead>
+                <tr>
+                    <th colspan="2" class="col-md-1">Name</th>
+                    <th class="col-md-1">Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in userlogic.GetAll())
+                {
+                    var image = imageslogic.GetById(item.Image);
+                    var thumb = image.DataSmall;
+                    var big = image.DataBig;
+                    var format = image.Format;
+                    <tr id="@item.Id">
+                        <td class="user-img"><img class="btn image-popover" data-img="/Actions/user/View?id=@image.Id&type=big" data-toggle="popover" data-placement="right" data-original-title="@item.Name" src="~/Actions/user/View?id=@image.Id&type=small" alt="avatar" /></td>
+                        <td class="col-md-1 username" data-id="@item.Id">@item.Name</td>
+                        <td class="user-age">@item.Age</td>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <td><button class="btn btn-sm btn-default show-rewards">List of rewards</button></td>
+                            if (User.IsInRole("moderator"))
+                            {
+                                <td><button class="btn btn-sm btn-default edit-user-age">Edit user age</button> </td>
+                                <td><button class="btn btn-sm btn-default edit-user-name">Edit user name</button> </td>
+                                <td><button class="btn btn-sm btn-default edit-user-photo">Edit user photo</button> </td>
+                                <td><button class="btn btn-sm btn-default delete-user">Delete User</button> </td>
+                            }
+                        }
+
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div id="LoginModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Login</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div>
+                        <form method="post" role="form" id="LoginForm">
+                            <div class="form-group">
+                                <label for="login" class="control-label">Login</label>
+                                <input type="text" name="login" id="login" class="form-control" placeholder="Enter Login" />
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="control-label">Password</label>
+                                <input type="password" name="password" id="password" class="form-control" placeholder="Enter password" />
+                            </div>
+                            <input type="hidden" name="returnUrl" value="/index" />
+                        </form>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success" id="LoginBtn">Login</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="RegisterModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Login</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div>
+                        <form method="post" role="form" id="RegisterForm">
+                            <div class="form-group">
+                                <label for="login" class="control-label">Login</label>
+                                <input type="text" name="login" id="login" class="form-control" placeholder="Enter Login" />
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="control-label">Password</label>
+                                <input type="password" name="password" id="password" class="form-control" placeholder="Enter password" />
+                            </div>
+                            <input type="hidden" name="returnUrl" value="/index" />
+                        </form>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success" id="RegisterBtn">Register</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="~/scripts/jquery-2.2.3.min.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <script src="~/scripts/script.js"></script>
+</body>
+</html>

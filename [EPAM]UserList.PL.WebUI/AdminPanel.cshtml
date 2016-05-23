@@ -1,0 +1,77 @@
+﻿@using _EPAM_UserList.BLL;
+@using _EPAM_UserList.BLL.UserLogic;
+@using _EPAM_UserList.Interfases.BLL;
+@using _EPAM_UserList.BLL.UserListLogic;
+@using Logs;
+@using _EPAM_UserList.Entites;
+@using System.Globalization;
+@using System.Configuration;
+@using System.Web.UI.WebControls;
+@using _EPAM_UserList.PL.WebUI;
+@{
+    AppUserLogic userlogic = new AppUserLogic();
+    AppRoleLogic rolelogic = new AppRoleLogic();
+}
+@if (User.IsInRole("admin"))
+{
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin's Panel</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <header class="row hidden-xs">
+            <div class="col-lg-12"><img src="~/Content/header.jpg" class="img-responsive"></div>
+        </header>
+        <a href="~/Index" class="btn btn-lg btn-danger">Back</a>
+        <h2>Hi @User.Identity.Name</h2>
+        <a href="~/Actions/user/Logout.cshtml" class="btn btn-lg btn-default"> Logout </a>
+
+        <table class="table table-striped" id="TableOfUsers">
+            <thead>
+                <tr>
+                    <th class="col-md-1">Name</th>
+                    <th colspan="2" class="col-md-1">Is Admin</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in userlogic.GetAll())
+                {
+                    if (item.Name != User.Identity.Name)
+                    {
+                        <tr>
+                            <td class="col-md-1">@item.Name</td>
+                            <td class="is-moderator">@Roles.Provider.IsUserInRole(item.Name, "moderator")</td>
+                            @if (Roles.Provider.IsUserInRole(item.Name, "moderator"))
+                            {
+                                <td data-name="@item.Name"><button class="btn btn-sm btn-default remove-rights">Remove rights</button></td>
+                            }
+                            else
+                            {
+                                <td data-name="@item.Name"><button class="btn btn-sm btn-default give-rights">Give rights</button></td>
+                            }
+
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+    <script src="~/scripts/jquery-2.2.3.min.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <script src="~/scripts/admin.js"></script>
+</body>
+</html>
+}
+else
+{
+    Response.SetStatus(HttpStatusCode.Forbidden);
+}

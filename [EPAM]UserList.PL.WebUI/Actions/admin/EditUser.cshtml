@@ -1,0 +1,230 @@
+﻿@using _EPAM_UserList.BLL;
+@using _EPAM_UserList.BLL.UserLogic;
+@using _EPAM_UserList.Interfases.BLL;
+@using _EPAM_UserList.BLL.UserListLogic;
+@using Logs;
+@using _EPAM_UserList.Entites;
+@using System.Globalization;
+@using System.Configuration;
+@using System.Web.UI.WebControls;
+@using _EPAM_UserList.PL.WebUI;
+@{
+    IUserListBLL userlogic = null;
+    IAwardListBLL awardlogic = null;
+    IImagesBLL imageslogic = null;
+    try
+    {
+        userlogic = new UserListLogic();
+        awardlogic = new AwardLogic();
+        imageslogic = new ImagesLogic();
+    }
+    catch (ConfigurationFileExeption e)
+    {
+        LogType.AddLog(e);
+    }
+    catch (Exception e)
+    {
+        LogType.AddLog(e);
+    }
+    Guid User_ID = new Guid();
+    Guid Award_ID = new Guid();
+    UserDTO user = null;
+    AwardDTO award = null;
+}
+@if (IsPost)
+{
+    var object_type = Request["obj"];
+    if (IsAjax)
+    {
+
+        if (object_type == "edit_age_modal")
+        {
+            <div id="ChangeUserAge" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Изменить возраст:</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form enctype="multipart/form-data" id="UserAge" method="post">
+                                <div class="form-group">                                    
+                                    <div class="form-group">
+                                        <label for="BDay">Birth Date (16 +)</label>
+                                        <input type="date" class="form-control" name="BDay" />
+                                        <input type="hidden"  name="ID"  value="@Request["ID"]" />
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-sm btn-success user-submit-age">Update</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        }
+        else if (object_type == "edit_name_modal")
+        {
+            <div id="ChangeUserName" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Изменить имя:</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form enctype="multipart/form-data" id="UserName" method="post">
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <label for="Name">Name</label>
+                                        <input type="text" class="form-control" name="Name" />
+                                        <input type="hidden" name="ID" value="@Request["ID"]" />
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-sm btn-success user-submit-name">Update</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        else if (object_type == "edit_photo_modal")
+        {
+            <div id="ChangeUserPhoto" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Изменить картинку:</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form enctype="multipart/form-data" id="UserPhoto" method="post">
+                                <label for="UserAvatar" class="control-label">Choose file for upload</label>
+                                <input type="file" class="form-control" name="UserAvatar" />
+                                <input type="hidden" name="ID" value="@Request["ID"]" />
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-sm btn-success user-submit-photo">Update</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        else if (object_type == "rec_age")
+        {
+            var userBday = Request["BDay"];
+            var date = DateTime.ParseExact(userBday, "dd-MM-yyyy", CultureInfo.InvariantCulture);
+            var user_StringId = Request["ID"];
+            Guid user_id = Guid.Parse(user_StringId);
+            user = userlogic.Get(user_id);
+            user.DateOfBirth = date;
+            userlogic.Update(user);
+            Json.Write(new
+            {
+                id = user_id,
+                age = user.Age,
+            }, Response.Output);
+
+        }
+        else if (object_type == "rec_name")
+        {
+            var userName = Request["Name"];
+            var user_StringId = Request["ID"];
+            Guid user_id = Guid.Parse(user_StringId);
+            user = userlogic.Get(user_id);
+            user.Name = userName;
+            userlogic.Update(user);
+            Json.Write(new
+            {
+                id = user_id,
+                name = user.Name,
+            }, Response.Output);
+        }
+        else if (object_type == "rec_photo")
+        {
+            var img = WebImage.GetImageFromRequest();
+            WebImage img_small = null;
+            WebImage img_big = null;
+            ImageDTO image;
+            if (img != null)
+            {
+
+                img_big = img.Clone().Resize(width: 200, height: 200, preserveAspectRatio: false,
+                      preventEnlarge: true);
+
+                img_small = img.Clone().Resize(width: 60, height: 60, preserveAspectRatio: false,
+                      preventEnlarge: true);
+                image = new ImageDTO(img.ImageFormat, img_small.GetBytes(), img_big.GetBytes());
+
+            }
+            else
+            {
+                image = new ImageDTO(null, null, null);
+            }
+            var user_StringId = Request["ID"];
+            Guid user_id = Guid.Parse(user_StringId);
+            user = userlogic.Get(user_id);
+            imageslogic.Create(image);
+            var image_id = imageslogic.GetID(image.Name);
+            user.Image = image_id;
+            userlogic.Update(user);
+            var imgTag = "<img class=\"btn image-popover\" data-img=\"/Actions/user/View?id=" + image_id + "&type=big\" data-toggle=\"popover\" data-placement=\"right\" data-original-title=\"" + user.Name + "\" src=\"/Actions/user/View?id=" + image_id + "&type=small\" alt=\"avatar\" />";
+            Json.Write(new
+            {
+                id = user_id,
+                html = imgTag,
+            }, Response.Output);
+        }
+        else if (object_type == "delete")
+        {
+            var user_StringId = Request["ID"];
+            Guid user_id = Guid.Parse(user_StringId);
+            user = userlogic.Get(user_id);
+            <div id="DeleteUser" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Удалить пользователя @user.Name ?</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form enctype="multipart/form-data" id="DeleteionID" method="post">
+                                    <div class="form-group">                                      
+                                        <input type="hidden" name="ID" value="@Request["ID"]" />
+                                    </div>
+                            </form>                           
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-sm btn-success delete-user-confirm">Yes</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        else if (object_type == "delete_request")
+        {
+            var user_StringId = Request["ID"];
+            Guid user_id = Guid.Parse(user_StringId);
+            userlogic.Delete(user_id);
+            Json.Write(new
+            {
+                user_id = user_id,
+
+            }, Response.Output);
+        }
+    }
+}
+
+else
+{
+    Response.SetStatus(HttpStatusCode.NotFound);
+}

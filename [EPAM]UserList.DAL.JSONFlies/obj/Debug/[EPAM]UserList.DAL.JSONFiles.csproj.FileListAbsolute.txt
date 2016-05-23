@@ -1,0 +1,80 @@
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]NoteSaver.Entites.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]NoteSaver.Interfases.DAL.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]NoteSaver.Entites.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]NoteSaver.Interfases.DAL.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Interfases.DAL.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Interfases.DAL.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFiles.csprojResolveAssemblyReference.cache
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Interfases.DAL.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Interfases.DAL.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFiles.csprojResolveAssemblyReference.cache
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Interfases.DAL.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Interfases.DAL.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFiles.csprojResolveAssemblyReference.cache
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Interfases.DAL.dll
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Interfases.DAL.pdb
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFiles.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Logs.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Interfases.DAL.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Logs.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Interfases.DAL.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFiles.csprojResolveAssemblyReference.cache
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Logs.dll
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Interfases.DAL.dll
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Logs.pdb
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\[EPAM]UserList.Interfases.DAL.pdb
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFiles.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]UserList.DAL.JSONFlies\obj\Debug\[EPAM]UserList.DAL.JSONFlies.pdb

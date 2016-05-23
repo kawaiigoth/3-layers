@@ -1,0 +1,128 @@
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]NoteSaver.PL.Console.exe.config
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]NoteSaver.PL.Console.exe
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]NoteSaver.PL.Console.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]NoteSaver.BLL.NoteLogic.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]NoteSaver.Entites.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]NoteSaver.Interfases.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]NoteSaver.Interfases.DAL.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]NoteSaver.DAL.Collection.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]NoteSaver.BLL.NoteLogic.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]NoteSaver.Entites.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]NoteSaver.Interfases.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]NoteSaver.Interfases.DAL.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]NoteSaver.DAL.Collection.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]UserList.PL.Console.csprojResolveAssemblyReference.cache
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]NoteSaver.PL.Console.exe
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]NoteSaver.PL.Console.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]NoteSaver.PL.Console.exe.config
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]NoteSaver.PL.Console.exe
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]NoteSaver.PL.Console.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.PL.Console.exe.config
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.PL.Console.exe.config
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.PL.Console.exe
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.PL.Console.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.BLL.UserLogic.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.DAL.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.Collection.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.BLL.UserLogic.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.DAL.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.Collection.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]UserList.PL.Console.csprojResolveAssemblyReference.cache
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]UserList.PL.Console.exe
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]UserList.PL.Console.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.PL.Console.exe.config
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]UserList.PL.Console.exe
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]UserList.PL.Console.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.PL.Console.exe
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.PL.Console.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.BLL.UserLogic.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.DAL.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.Collection.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.BLL.UserLogic.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.DAL.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.Collection.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]UserList.PL.Console.csprojResolveAssemblyReference.cache
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.PL.Console.exe.config
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]UserList.PL.Console.exe
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]UserList.PL.Console.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.PL.Console.exe
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.PL.Console.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.BLL.UserLogic.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.DAL.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.Collection.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.BLL.UserLogic.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.DAL.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.Collection.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]UserList.PL.Console.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.PL.Console.exe.config
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]UserList.PL.Console.exe
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]UserList.PL.Console.pdb
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.PL.Console.exe
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.PL.Console.pdb
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.BLL.UserLogic.dll
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.dll
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.DAL.dll
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.Collection.dll
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.BLL.UserLogic.pdb
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.pdb
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.DAL.pdb
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.Collection.pdb
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]UserList.PL.Console.csprojResolveAssemblyReference.cache
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.PL.Console.exe.config
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]UserList.PL.Console.exe
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]UserList.PL.Console.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.PL.Console.exe
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.PL.Console.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\Logs.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.BLL.UserLogic.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.DAL.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.JSONFlies.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.Collection.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.DB.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\Logs.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.BLL.UserLogic.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.Interfases.DAL.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.JSONFlies.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.Collection.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\bin\Debug\[EPAM]UserList.DAL.DB.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.PL.Console\obj\Debug\[EPAM]UserList.PL.Console.csprojResolveAssemblyReference.cache

@@ -1,0 +1,133 @@
+﻿@using _EPAM_UserList.BLL;
+@using _EPAM_UserList.BLL.UserLogic;
+@using _EPAM_UserList.Interfases.BLL;
+@using _EPAM_UserList.BLL.UserListLogic;
+@using Logs;
+@using _EPAM_UserList.Entites;
+@using System.Globalization;
+@using System.Configuration;
+@using System.Web.UI.WebControls;
+@using _EPAM_UserList.PL.WebUI;
+@{
+    IUserListBLL userlogic = null;
+    IAwardListBLL awardlogic = null;
+    try
+    {
+        userlogic = new UserListLogic();
+        awardlogic = new AwardLogic();
+    }
+    catch (ConfigurationFileExeption e)
+    {
+        LogType.AddLog(e);
+    }
+    catch (Exception e)
+    {
+        LogType.AddLog(e);
+    }
+    Guid User_ID = new Guid();
+    Guid Award_ID = new Guid();
+    UserDTO user = null;
+    AwardDTO award = null;
+}
+@if (IsPost)
+{
+    var object_type = Request["obj"];
+    if (IsAjax)
+    {
+
+        if (object_type == "rewards")
+        {
+            User_ID = Guid.Parse(Request["ID"]);
+            <div id="ShowRewards" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Награды пользователя:</h4>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table table-striped" id="TableOfAwards">
+                                <tbody>
+                                    @{
+                                        user = userlogic.Get(User_ID);
+                                        if (user.Awards.Count > 0)
+                                        {
+                                            foreach (var awarditem in user.Awards)
+                                            {
+                                                <tr id="@awarditem.Id">
+                                                    <td><img class="btn" src="/Actions/user/View?id=@awarditem.Image&type=small" alt="award" /></td>
+                                                    <td class="col-md-1">@awarditem.Name</td>
+                                                    @if (User.IsInRole("moderator"))
+                                                    {
+                                                        <td><button class="btn btn-danger user-delete-reward" data-user-id="@user.Id">Delete</button></td>
+                                                    }
+
+                                                </tr>
+                                            }
+                                        }
+                                    }
+                                </tbody>
+                            </table>
+                            <div class="divider"></div>
+                            @if (User.IsInRole("moderator"))
+                            {
+                                <form id="AvalibleAwards" method="post">
+                                    <select name="avalible-awards" class="form-control">
+
+                                        @foreach (var awarditem in awardlogic.GetAll())
+                                        {
+                                            <option value="@awarditem.Id">@awarditem.Name</option>
+                                        }
+                                    </select>
+                                </form>
+
+                            <button class="btn btn-sm btn-success submit-award" data-user-id="@user.Id">Add</button>
+
+                            }
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                                        }
+                                        else if (object_type == "remove_reward")
+                                        {
+                                            User_ID = Guid.Parse(Request["uID"]);
+                                            Award_ID = Guid.Parse(Request["aID"]);
+                                            userlogic.RemoveAward(User_ID, Award_ID);
+                                            Json.Write(new
+                                            {
+                                                award_id = Request["aID"],
+                                            }, Response.Output);
+
+                                        }
+                                        else if (object_type == "selection")
+                                        {
+                                            var data = Request["avalible-awards"];
+                                            var ID = Request["ID"];
+                                            Guid ndata = Guid.Parse(data);
+                                            User_ID = Guid.Parse(ID);
+                                            award = awardlogic.Get(ndata);
+                                            user = userlogic.Get(User_ID);
+                                            if (userlogic.AddAward(user.Id, award.Id))
+                                            {
+                                                <tr id="@award.Id">
+                                                    <td><img class="btn" src="/Actions/user/View?id=@award.Image&type=small" alt="award" /></td>
+                                                    <td class="col-md-1">@award.Name</td>
+                                                    <td><button class="btn btn-danger user-delete-reward" data-user-id="@user.Id">Delete</button></td>
+                                                </tr>
+
+                                                    }
+
+
+                                                }
+                                            }
+                                        }
+                                        else
+                                        {
+                                            Response.SetStatus(HttpStatusCode.NotFound);
+                                        }
+

@@ -1,0 +1,49 @@
+﻿@using _EPAM_UserList.BLL;
+@using _EPAM_UserList.BLL.UserLogic;
+@using _EPAM_UserList.Interfases.BLL;
+@using _EPAM_UserList.BLL.UserListLogic;
+@using Logs;
+@using _EPAM_UserList.Entites;
+@using System.Globalization;
+@using System.Configuration;
+@using System.Web.UI.WebControls;
+@using _EPAM_UserList.PL.WebUI;
+@{
+    AppUserLogic userlogic = new AppUserLogic();
+    AppRoleLogic rolelogic = new AppRoleLogic();
+    
+}
+@if (IsPost)
+        {
+
+            string login = Request.Form["login"];
+            string password = Request.Form["password"];
+
+            if (string.IsNullOrWhiteSpace(login) && string.IsNullOrWhiteSpace(password))
+            {
+                Response.SetStatus(HttpStatusCode.BadRequest);
+                return;
+            }
+            if(!userlogic.Exists(login))
+            {
+                var pass = Engine.Crypt(password);
+                var user = new AppUserDTO(login, pass);
+                userlogic.Create(user);
+                Json.Write(new
+                {
+                    success = "ok",
+            }, Response.Output);
+        }
+        else
+        {
+            Json.Write(new
+            {
+                success = "fail",
+            }, Response.Output);
+        }
+
+    }
+else
+{
+    Response.SetStatus(HttpStatusCode.NotFound);
+}

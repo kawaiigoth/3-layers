@@ -1,0 +1,70 @@
+
+Log Entry : 16:42:17 5 апреля 2016 г.
+  :
+  :Ссылка на объект не указывает на экземпляр объекта.
+-------------------------------
+
+Log Entry : 17:17:34 5 апреля 2016 г.
+  :
+  :Ссылка на объект не указывает на экземпляр объекта.
+-------------------------------
+
+Log Entry : 17:26:45 5 апреля 2016 г.
+  :
+  :Ссылка на объект не указывает на экземпляр объекта.
+-------------------------------
+
+Log Entry : 17:28:43 5 апреля 2016 г.
+  :
+  :Ссылка на объект не указывает на экземпляр объекта.
+-------------------------------
+
+Log Entry : 7:30:09 PM Wednesday, April 06, 2016
+  :
+  :Self referencing loop detected with type '_EPAM_UserList.Entites.UserDTO'. Path '[0].Awards[0].Users'.
+-------------------------------
+
+Log Entry : 7:30:13 PM Wednesday, April 06, 2016
+  :
+  :Self referencing loop detected with type '_EPAM_UserList.Entites.UserDTO'. Path '[0].Awards[0].Users'.
+-------------------------------
+
+Log Entry : 7:33:14 PM Wednesday, April 06, 2016
+  :
+  :Self referencing loop detected with type '_EPAM_UserList.Entites.UserDTO'. Path '[0].Awards[0].Users'.
+-------------------------------
+
+Log Entry : 7:48:59 PM Wednesday, April 06, 2016
+  :
+  :Self referencing loop detected with type '_EPAM_UserList.Entites.AwardDTO'. Path '[0].Users[0].Awards'.
+-------------------------------
+
+Log Entry : 8:18:09 PM Wednesday, April 06, 2016
+  :
+  :Can't read data.
+-------------------------------
+
+Log Entry : 8:18:11 PM Wednesday, April 06, 2016
+  :
+  :Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 8:18:43 PM Wednesday, April 06, 2016
+  :
+  :Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 8:21:51 PM Wednesday, April 06, 2016
+  :
+  :Can't read data.
+-------------------------------
+
+Log Entry : 8:21:57 PM Wednesday, April 06, 2016
+  :
+  :Can't read data.
+-------------------------------
+
+Log Entry : 8:26:19 PM Wednesday, April 06, 2016
+  :
+  :Self referencing loop detected with type '_EPAM_UserList.Entites.AwardDTO'. Path '[0].Users[0].Awards'.
+-------------------------------

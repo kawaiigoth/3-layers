@@ -1,0 +1,139 @@
+﻿@using _EPAM_UserList.BLL;
+@using _EPAM_UserList.BLL.UserLogic;
+@using _EPAM_UserList.Interfases.BLL;
+@using _EPAM_UserList.BLL.UserListLogic;
+@using Logs;
+@using _EPAM_UserList.Entites;
+@using System.Globalization;
+@{
+    IUserListBLL userlogic = null;
+    IAwardListBLL awardlogic = null;
+    IImagesBLL imageslogic = null;
+    try
+    {
+        userlogic = new UserListLogic();
+        awardlogic = new AwardLogic();
+        imageslogic = new ImagesLogic();
+    }
+    catch (ConfigurationFileExeption e)
+    {
+        LogType.AddLog(e);
+    }
+    catch (Exception e)
+    {
+        LogType.AddLog(e);
+    }
+    Guid User_ID = new Guid();
+    UserDTO user = null;
+    AwardDTO award = null;
+}
+@if (IsPost)
+{
+    var object_type = Request["obj"];
+    if (IsAjax)
+    {
+
+        if (object_type == "show_modal")
+        {
+            <div id="CreateUser" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Добавить пользователя:</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form enctype="multipart/form-data" id="UserData" method="post">
+                                <div class="form-group">
+                                    <label for="UserAvatar" class="control-label">Choose file for upload</label>
+                                    <input type="file" class="form-control" name="UserAvatar" />
+                                    <div class="form-group">
+                                        <label for="Name">Name</label>
+                                        <input type="text" class="form-control" name="Name" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="BDay">Birth Date (16 +)</label>
+                                        <input type="date" class="form-control" name="BDay" />
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-sm btn-success user-complete-creation">Add</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        }
+        else if (object_type == "creation")
+        {
+            var User_Name = Request["Name"];
+            var userBday = Request["BDay"];
+            var date = DateTime.ParseExact(userBday, "dd-MM-yyyy", CultureInfo.InvariantCulture);
+            var img = WebImage.GetImageFromRequest();
+            WebImage img_small = null;
+            WebImage img_big = null;
+            ImageDTO image;
+            if (img != null)
+            {
+
+                img_big = img.Clone().Resize(width: 200, height: 200, preserveAspectRatio: false,
+                      preventEnlarge: true);
+                
+                img_small = img.Clone().Resize(width: 60, height: 60, preserveAspectRatio: false,
+                      preventEnlarge: true);
+                image = new ImageDTO(img.ImageFormat, img_small.GetBytes(), img_big.GetBytes());
+
+            }
+            else
+            {
+                image = new ImageDTO(null, null, null);
+            }
+
+            imageslogic.Create(image);
+            var image_id = imageslogic.GetID(image.Name);
+            UserDTO new_user = new UserDTO(User_Name, date, image_id);
+            userlogic.Create(new_user);
+            image = imageslogic.GetById(new_user.Image);
+            var thumb = image.DataSmall;
+            var big = image.DataBig;
+            <tr id="@new_user.Id">
+                <td class="user-img"><img class="btn image-popover" data-img="/Actions/user/View?id=@image.Id&type=big" data-toggle="popover" data-placement="right" data-original-title="@new_user.Name" src="~/Actions/user/View?id=@image.Id&type=small" alt="avatar" /></td>
+                <td class="col-md-1 username" data-id="@new_user.Id">@new_user.Name</td>
+                <td class="user-age">@new_user.Age</td>
+                <td><button class="btn btn-sm btn-default show-rewards">List of rewards</button></td>
+                <td><button class="btn btn-sm btn-default edit-user-age">Edit user age</button> </td>
+                <td><button class="btn btn-sm btn-default edit-user-name">Edit user name</button> </td>
+                <td><button class="btn btn-sm btn-default edit-user-photo">Edit user photo</button> </td>
+                <td><button class="btn btn-sm btn-default delete-user">Delete User</button> </td>
+
+            </tr>
+
+        }
+        else if (object_type == "selection")
+        {
+            var data = Request["avalible-awards"];
+            var ID = Request["ID"];
+            Guid ndata = Guid.Parse(data);
+            User_ID = Guid.Parse(ID);
+            award = awardlogic.Get(ndata);
+            user = userlogic.Get(User_ID);
+            if (userlogic.AddAward(user.Id, award.Id))
+            {
+                <tr id="@award.Id">
+                    <td><img class="btn" src="@award.Image" alt="avatar" /></td>
+                    <td class="col-md-1">@award.Name</td>
+                    <td><button class="btn btn-danger user-delete-reward" data-user-id="@user.Id">Delete</button></td>
+                </tr>
+            }
+
+
+        }
+    }
+}
+else
+{
+    Response.SetStatus(HttpStatusCode.NotFound);
+}

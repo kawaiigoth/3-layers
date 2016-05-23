@@ -1,0 +1,37 @@
+﻿@using _EPAM_UserList.BLL;
+@using _EPAM_UserList.BLL.UserLogic;
+@using _EPAM_UserList.Interfases.BLL;
+@using _EPAM_UserList.BLL.UserListLogic;
+@using Logs;
+@using _EPAM_UserList.Entites;
+@using System.Globalization;
+@using System.Configuration;
+@using System.Web.UI.WebControls;
+@using _EPAM_UserList.PL.WebUI;
+@{
+    AppUserLogic userlogic = new AppUserLogic();
+    AppRoleLogic rolelogic = new AppRoleLogic();
+}
+@if (IsPost)
+{
+    var object_type = Request["obj"];
+    if (IsAjax)
+    {
+        if (object_type == "give_rights")
+        {
+            var name = Request["username"];
+            var user = userlogic.Get(name);
+            userlogic.AddRole(user, new RoleDTO("moderator"));
+        }
+        if (object_type == "remove_rights")
+        {
+            var name = Request["username"];
+            var user = userlogic.Get(name);
+            userlogic.RemoveRole(user, new RoleDTO("moderator"));
+        }
+    }
+}
+else
+{
+    Response.SetStatus(HttpStatusCode.NotFound);
+}

@@ -1,0 +1,292 @@
+
+Log Entry : 22:29:52 15 мая 2016 г.
+  :
+  :TImage
+-------------------------------
+
+Log Entry : 22:30:32 15 мая 2016 г.
+  :
+  :TImage
+-------------------------------
+
+Log Entry : 22:30:36 15 мая 2016 г.
+  :
+  :TImage
+-------------------------------
+
+Log Entry : 22:30:41 15 мая 2016 г.
+  :
+  :TImage
+-------------------------------
+
+Log Entry : 22:31:46 15 мая 2016 г.
+  :
+  :TImage
+-------------------------------
+
+Log Entry : 9:41:33 16 мая 2016 г.
+  :
+  :Существует назначенный этой команде Command открытый DataReader, который требуется предварительно закрыть.
+-------------------------------
+
+Log Entry : 9:42:37 16 мая 2016 г.
+  :
+  :Существует назначенный этой команде Command открытый DataReader, который требуется предварительно закрыть.
+-------------------------------
+
+Log Entry : 9:46:43 16 мая 2016 г.
+  :
+  :Invalid object name 'dbo.AwardsUsers'.
+-------------------------------
+
+Log Entry : 9:47:21 16 мая 2016 г.
+  :
+  :Invalid object name 'dbo.AwardsUsers'.
+-------------------------------
+
+Log Entry : 9:48:38 16 мая 2016 г.
+  :
+  :Недопустимая попытка чтения при отсутствии данных.
+-------------------------------
+
+Log Entry : 9:52:12 16 мая 2016 г.
+  :
+  :Недопустимая попытка чтения при отсутствии данных.
+-------------------------------
+
+Log Entry : 10:22:57 16 мая 2016 г.
+  :
+  :Invalid column name 'ID'.
+Invalid column name 'Guid'.
+Invalid column name 'Name'.
+Invalid column name 'Image'.
+-------------------------------
+
+Log Entry : 10:44:59 16 мая 2016 г.
+  :
+  :Недопустимая попытка чтения при отсутствии данных.
+-------------------------------
+
+Log Entry : 10:46:42 16 мая 2016 г.
+  :
+  :Недопустимая попытка чтения при отсутствии данных.
+-------------------------------
+
+Log Entry : 10:49:41 16 мая 2016 г.
+  :
+  :Недопустимая попытка чтения при отсутствии данных.
+-------------------------------
+
+Log Entry : 15:36:40 16 мая 2016 г.
+  :
+  :Operand type clash: uniqueidentifier is incompatible with int
+-------------------------------
+
+Log Entry : 15:43:28 16 мая 2016 г.
+  :
+  :Incorrect syntax near ','.
+-------------------------------
+
+Log Entry : 15:44:29 16 мая 2016 г.
+  :
+  :Incorrect syntax near ','.
+-------------------------------
+
+Log Entry : 15:50:13 16 мая 2016 г.
+  :
+  :Incorrect syntax near 't'.
+-------------------------------
+
+Log Entry : 15:54:02 16 мая 2016 г.
+  :
+  :Incorrect syntax near 't'.
+-------------------------------
+
+Log Entry : 15:54:57 16 мая 2016 г.
+  :
+  :Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ') '.
+-------------------------------
+
+Log Entry : 8:52:04 PM Monday, May 16, 2016
+  :
+  :Violation of PRIMARY KEY constraint 'PK__UsersAwa__3C2AAE256056DA8C'. Cannot insert duplicate key in object 'dbo.UsersAwards'. The duplicate key value is (1, 2).
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 8:57:17 PM Monday, May 16, 2016
+  :
+  :Violation of PRIMARY KEY constraint 'PK__UsersAwa__3C2AAE256056DA8C'. Cannot insert duplicate key in object 'dbo.UsersAwards'. The duplicate key value is (1, 2).
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 8:57:17 PM Monday, May 16, 2016
+  :
+  :Violation of PRIMARY KEY constraint 'PK__UsersAwa__3C2AAE256056DA8C'. Cannot insert duplicate key in object 'dbo.UsersAwards'. The duplicate key value is (1, 2).
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 8:57:17 PM Monday, May 16, 2016
+  :
+  :Violation of PRIMARY KEY constraint 'PK__UsersAwa__3C2AAE256056DA8C'. Cannot insert duplicate key in object 'dbo.UsersAwards'. The duplicate key value is (1, 2).
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 9:44:55 PM Monday, May 16, 2016
+  :
+  :Violation of PRIMARY KEY constraint 'PK__UsersAwa__3C2AAE256056DA8C'. Cannot insert duplicate key in object 'dbo.UsersAwards'. The duplicate key value is (1, 2).
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 9:47:20 PM Monday, May 16, 2016
+  :
+  :Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ') '.
+-------------------------------
+
+Log Entry : 9:50:16 PM Monday, May 16, 2016
+  :
+  :Violation of PRIMARY KEY constraint 'PK__UsersAwa__3C2AAE256056DA8C'. Cannot insert duplicate key in object 'dbo.UsersAwards'. The duplicate key value is (1, 1).
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 9:50:58 PM Monday, May 16, 2016
+  :
+  :Violation of PRIMARY KEY constraint 'PK__UsersAwa__3C2AAE256056DA8C'. Cannot insert duplicate key in object 'dbo.UsersAwards'. The duplicate key value is (1, 1).
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 9:57:55 PM Monday, May 16, 2016
+  :
+  :Violation of PRIMARY KEY constraint 'PK__UsersAwa__3C2AAE256056DA8C'. Cannot insert duplicate key in object 'dbo.UsersAwards'. The duplicate key value is (1, 2).
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 13:25:16 17 мая 2016 г.
+  :
+  :Violation of PRIMARY KEY constraint 'PK__UsersAwa__3C2AAE2535E65285'. Cannot insert duplicate key in object 'dbo.UsersAwards'. The duplicate key value is (1, 1).
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 13:34:55 17 мая 2016 г.
+  :
+  :Violation of PRIMARY KEY constraint 'PK__UsersAwa__3C2AAE2535E65285'. Cannot insert duplicate key in object 'dbo.UsersAwards'. The duplicate key value is (1, 1).
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 13:39:38 17 мая 2016 г.
+  :
+  :Violation of PRIMARY KEY constraint 'PK__UsersAwa__3C2AAE2535E65285'. Cannot insert duplicate key in object 'dbo.UsersAwards'. The duplicate key value is (1, 1).
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 13:41:59 17 мая 2016 г.
+  :
+  :Violation of PRIMARY KEY constraint 'PK__UsersAwa__3C2AAE2535E65285'. Cannot insert duplicate key in object 'dbo.UsersAwards'. The duplicate key value is (1, 1).
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 13:42:47 17 мая 2016 г.
+  :
+  :Violation of PRIMARY KEY constraint 'PK__UsersAwa__3C2AAE2535E65285'. Cannot insert duplicate key in object 'dbo.UsersAwards'. The duplicate key value is (1, 1).
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 14:13:35 17 мая 2016 г.
+  :
+  :Violation of PRIMARY KEY constraint 'PK__UsersAwa__3C2AAE2535E65285'. Cannot insert duplicate key in object 'dbo.UsersAwards'. The duplicate key value is (1, 1).
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 14:14:03 17 мая 2016 г.
+  :
+  :Violation of PRIMARY KEY constraint 'PK__UsersAwa__3C2AAE2535E65285'. Cannot insert duplicate key in object 'dbo.UsersAwards'. The duplicate key value is (1, 1).
+The statement has been terminated.
+-------------------------------
+
+Log Entry : 14:58:21 17 мая 2016 г.
+  :
+  :Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ') '.
+-------------------------------
+
+Log Entry : 14:59:15 17 мая 2016 г.
+  :
+  :Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ') '.
+-------------------------------
+
+Log Entry : 14:59:15 17 мая 2016 г.
+  :
+  :Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ') '.
+-------------------------------
+
+Log Entry : 15:00:40 17 мая 2016 г.
+  :
+  :Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ') '.
+-------------------------------
+
+Log Entry : 15:01:10 17 мая 2016 г.
+  :
+  :Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ') '.
+-------------------------------
+
+Log Entry : 15:05:30 17 мая 2016 г.
+  :
+  :Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ') '.
+-------------------------------
+
+Log Entry : 15:06:03 17 мая 2016 г.
+  :
+  :Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ') '.
+-------------------------------
+
+Log Entry : 15:38:49 17 мая 2016 г.
+  :
+  :Invalid column name 'ID'.
+-------------------------------
+
+Log Entry : 15:40:53 17 мая 2016 г.
+  :
+  :Invalid column name 'ID'.
+-------------------------------
+
+Log Entry : 15:49:03 17 мая 2016 г.
+  :
+  :Incorrect syntax near 'c17'.
+-------------------------------
+
+Log Entry : 15:50:36 17 мая 2016 г.
+  :
+  :Incorrect syntax near 'c17'.
+-------------------------------
+
+Log Entry : 15:50:48 17 мая 2016 г.
+  :
+  :Incorrect syntax near 'c17'.
+-------------------------------
+
+Log Entry : 15:52:31 17 мая 2016 г.
+  :
+  :Incorrect syntax near 'c17'.
+-------------------------------
+
+Log Entry : 15:53:17 17 мая 2016 г.
+  :
+  :Для ExecuteNonQuery нужно открытое и доступное подключение Connection. Подключение закрыто.
+-------------------------------
+
+Log Entry : 9:39:48 PM Wednesday, May 18, 2016
+  :
+  :The variable name '@guid' has already been declared. Variable names must be unique within a query batch or stored procedure.
+-------------------------------
+
+Log Entry : 9:40:49 PM Wednesday, May 18, 2016
+  :
+  :The variable name '@guid' has already been declared. Variable names must be unique within a query batch or stored procedure.
+-------------------------------

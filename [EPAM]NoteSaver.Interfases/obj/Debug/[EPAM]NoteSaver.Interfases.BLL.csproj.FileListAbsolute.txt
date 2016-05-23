@@ -1,0 +1,7 @@
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.Interfases\bin\Debug\[EPAM]NoteSaver.Interfases.dll
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.Interfases\bin\Debug\[EPAM]NoteSaver.Interfases.pdb
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.Interfases\bin\Debug\[EPAM]NoteSaver.Entites.dll
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.Interfases\bin\Debug\[EPAM]NoteSaver.Entites.pdb
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.Interfases\obj\Debug\[EPAM]NoteSaver.Interfases.BLL.csprojResolveAssemblyReference.cache
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.Interfases\obj\Debug\[EPAM]NoteSaver.Interfases.dll
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.Interfases\obj\Debug\[EPAM]NoteSaver.Interfases.pdb

@@ -1,0 +1,58 @@
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.Entites\bin\Debug\[EPAM]NoteSaver.Entites.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.Entites\bin\Debug\[EPAM]NoteSaver.Entites.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]NoteSaver.Entites.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]NoteSaver.Entites.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.Entites\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]NoteSaver.Entites\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.Entites\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.Entites\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.Entites\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.Entites\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.csprojResolveAssemblyReference.cache
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.dll
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver - копия - копия\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.csprojResolveAssemblyReference.cache
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserList\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.Entites\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.Entites\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.Entites\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.Entites\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.csprojResolveAssemblyReference.cache
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.dll
+C:\Users\Lertyan\Desktop\[EPAM]UserListHardcore\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.dll
+C:\Users\user\Desktop\[EPAM]UserList\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\[EPAM]UserList.Entites.dll.config
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\EntityFramework.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\EntityFramework.xml
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.csprojResolveAssemblyReference.cache
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.dll
+C:\Users\Lertyan\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\[EPAM]UserList.Entites.dll.config
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\[EPAM]UserList.Entites.dll
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\[EPAM]UserList.Entites.pdb
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.dll
+C:\Users\user\Desktop\FastRELOADARRR\[EPAM]UserList\[EPAM]NoteSaver.Entites\obj\Debug\[EPAM]UserList.Entites.pdb

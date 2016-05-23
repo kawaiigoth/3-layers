@@ -1,0 +1,6 @@
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]UserList.DAL.JSONFiles\bin\Debug\[EPAM]UserList.DAL.JSONFiles.exe.config
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]UserList.DAL.JSONFiles\bin\Debug\[EPAM]UserList.DAL.JSONFiles.exe
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]UserList.DAL.JSONFiles\bin\Debug\[EPAM]UserList.DAL.JSONFiles.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]UserList.DAL.JSONFiles\obj\Debug\[EPAM]UserList.DAL.JSONFiles.exe
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]UserList.DAL.JSONFiles\obj\Debug\[EPAM]UserList.DAL.JSONFiles.pdb
+C:\Users\Lertyan\Desktop\[EPAM]NoteSaver\[EPAM]UserList.DAL.JSONFiles\obj\Debug\[EPAM]UserList.DAL.JSONFiles.csprojResolveAssemblyReference.cache

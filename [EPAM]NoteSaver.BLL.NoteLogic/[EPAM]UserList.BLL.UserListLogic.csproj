@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{01736AAD-FEC8-4243-B36A-04095672FCFF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_EPAM_UserList.BLL.UserLogic</RootNamespace>
+    <AssemblyName>[EPAM]UserList.BLL.UserLogic</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppRoleLogic.cs" />
+    <Compile Include="AppUserLogic.cs" />
+    <Compile Include="AwardLogic.cs" />
+    <Compile Include="ConfigurationFileExeption.cs" />
+    <Compile Include="DataLoadExeption.cs" />
+    <Compile Include="ImagesLogic.cs" />
+    <Compile Include="UserLogic.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logs\[EPAM]UserList.Logs.csproj">
+      <Project>{02d343ee-a8bf-4819-9374-3479a72c4ff2}</Project>
+      <Name>[EPAM]UserList.Logs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\[EPAM]NoteSaver.DAL.Collection\[EPAM]UserList.DAL.Collection.csproj">
+      <Project>{6667a219-0daf-4dc8-aebe-f3faa68e8b18}</Project>
+      <Name>[EPAM]UserList.DAL.Collection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\[EPAM]NoteSaver.Entites\[EPAM]UserList.Entites.csproj">
+      <Project>{14feb26e-10bb-476b-9ca7-fa310766e70f}</Project>
+      <Name>[EPAM]UserList.Entites</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\[EPAM]NoteSaver.Interfases.DAL\[EPAM]UserList.Interfases.DAL.csproj">
+      <Project>{c761e15b-902c-4b8e-acf8-4229cd734c32}</Project>
+      <Name>[EPAM]UserList.Interfases.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\[EPAM]NoteSaver.Interfases\[EPAM]UserList.Interfases.BLL.csproj">
+      <Project>{6bfd04d2-9c34-44e0-b4d9-bfeb259f0868}</Project>
+      <Name>[EPAM]UserList.Interfases.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\[EPAM]UserList.DAL.DB\[EPAM]UserList.DAL.DB.csproj">
+      <Project>{9a70470f-becf-439b-83e8-639ba3278c14}</Project>
+      <Name>[EPAM]UserList.DAL.DB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\[EPAM]UserList.DAL.JSONFlies\[EPAM]UserList.DAL.JSONFiles.csproj">
+      <Project>{c76dc211-8614-4798-993a-122925f24491}</Project>
+      <Name>[EPAM]UserList.DAL.JSONFiles</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

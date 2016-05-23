@@ -1,0 +1,86 @@
+﻿@using _EPAM_UserList.BLL;
+@using _EPAM_UserList.BLL.UserLogic;
+@using _EPAM_UserList.Interfases.BLL;
+@using _EPAM_UserList.BLL.UserListLogic;
+@using Logs;
+@{
+    IUserListBLL userlogic = null;
+    IAwardListBLL awardlogic = null;
+    IImagesBLL imageslogic = null;
+    try
+    {
+        userlogic = new UserListLogic();
+        awardlogic = new AwardLogic();
+        imageslogic = new ImagesLogic();
+
+    }
+    catch (ConfigurationFileExeption e)
+    {
+        LogType.AddLog(e);
+    }
+    catch (Exception e)
+    {
+        LogType.AddLog(e);
+    }
+}
+@if (User.IsInRole("moderator"))
+{
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UserList Application</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <header class="row hidden-xs">
+            <div class="col-lg-12"><img src="~/Content/header.jpg" class="img-responsive"></div>
+        </header>
+        <button class="btn btn-lg btn-success create-award">Add Award</button>
+        <a href="~/Index" class="btn btn-lg btn-warning">Users</a>
+        <table class="table table-striped" id="AwardsTable">
+            <thead>
+                <tr>
+                    <th colspan="2" class="col-md-1">Name</th>
+                    <th class="col-md-1">Users</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in awardlogic.GetAll())
+                {
+                    var image = imageslogic.GetById(item.Image);
+                    <tr id="@item.Id">
+                        <td class="award-img"><img class="btn" src="~/Actions/user/View?id=@image.Id&type=small" alt="avatar" /></td>
+                        <td class="col-md-1 awardname" data-id="@item.Id">@item.Name</td>
+                        <td class="users-count">@item.Users.Count()</td>
+                        <td><button class="btn btn-sm btn-default show-users">List of users</button></td>
+                        <td><button class="btn btn-sm btn-default edit-award-name">Edit name</button> </td>
+                        <td><button class="btn btn-sm btn-default edit-award-photo">Edit photo</button> </td>
+                        <td><button class="btn btn-sm btn-default delete-award">Delete</button> </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+
+    <script src="~/scripts/jquery-2.2.3.min.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <script src="~/scripts/script.js"></script>
+</body>
+</html>
+}
+else
+{
+    Response.SetStatus(HttpStatusCode.Forbidden);
+}
+

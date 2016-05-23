@@ -1,0 +1,13 @@
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.BLL.NoteLogic\obj\Debug\[EPAM]NoteSaver.BLL.NoteLogic.csprojResolveAssemblyReference.cache
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.BLL.NoteLogic\bin\Debug\[EPAM]NoteSaver.BLL.NoteLogic.dll
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.BLL.NoteLogic\bin\Debug\[EPAM]NoteSaver.BLL.NoteLogic.pdb
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.BLL.NoteLogic\bin\Debug\[EPAM]NoteSaver.DAL.Collection.dll
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.BLL.NoteLogic\bin\Debug\[EPAM]NoteSaver.Entites.dll
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.BLL.NoteLogic\bin\Debug\[EPAM]NoteSaver.Interfases.DAL.dll
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.BLL.NoteLogic\bin\Debug\[EPAM]NoteSaver.Interfases.dll
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.BLL.NoteLogic\bin\Debug\[EPAM]NoteSaver.DAL.Collection.pdb
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.BLL.NoteLogic\bin\Debug\[EPAM]NoteSaver.Entites.pdb
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.BLL.NoteLogic\bin\Debug\[EPAM]NoteSaver.Interfases.DAL.pdb
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.BLL.NoteLogic\bin\Debug\[EPAM]NoteSaver.Interfases.pdb
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.BLL.NoteLogic\obj\Debug\[EPAM]NoteSaver.BLL.NoteLogic.dll
+c:\users\dmitrii_turlychkin\documents\visual studio 2015\Projects\[EPAM]NoteSaver\[EPAM]NoteSaver.BLL.NoteLogic\obj\Debug\[EPAM]NoteSaver.BLL.NoteLogic.pdb
